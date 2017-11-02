@@ -1,0 +1,20 @@
+Plat\PlatBundle\Entity\Plat:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\PlatRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        titre:
+            type: string
+            length: 255
+            nullable: true
+        prix:
+            type: float
+        nbpersonne:
+            type: integer
+    lifecycleCallbacks: {  }

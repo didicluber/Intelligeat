@@ -1,0 +1,28 @@
+Plat\PlatBundle\Entity\Utilisateur:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\UtilisateurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        prenom:
+            type: string
+            length: 255
+        adresse:
+            type: string
+            length: 255
+        section:
+            type: string
+            length: 255
+        statut:
+            type: boolean
+        type:
+            type: boolean
+    lifecycleCallbacks: {  }

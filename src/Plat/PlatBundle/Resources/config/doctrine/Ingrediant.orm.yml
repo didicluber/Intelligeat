@@ -1,0 +1,18 @@
+Plat\PlatBundle\Entity\Ingrediant:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\IngrediantRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        libelle:
+            type: string
+            length: 255
+        cb:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

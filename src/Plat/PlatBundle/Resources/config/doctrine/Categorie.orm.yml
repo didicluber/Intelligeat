@@ -1,0 +1,15 @@
+Plat\PlatBundle\Entity\Categorie:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\CategorieRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        libelle:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

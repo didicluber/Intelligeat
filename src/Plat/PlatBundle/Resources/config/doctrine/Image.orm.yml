@@ -1,0 +1,15 @@
+Plat\PlatBundle\Entity\Image:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\ImageRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        url:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

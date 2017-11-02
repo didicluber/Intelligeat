@@ -103,6 +103,68 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
+        // plat_homepage
+        if ('' === $trimmedPathinfo) {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'plat_homepage');
+            }
+
+            return array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::indexAction',  '_route' => 'plat_homepage',);
+        }
+
+        // plat_new
+        if ('/new' === $pathinfo) {
+            return array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::newAction',  '_route' => 'plat_new',);
+        }
+
+        // plat_index
+        if ('' === $trimmedPathinfo) {
+            if ('GET' !== $canonicalMethod) {
+                $allow[] = 'GET';
+                goto not_plat_index;
+            }
+
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'plat_index');
+            }
+
+            return array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::indexAction',  '_route' => 'plat_index',);
+        }
+        not_plat_index:
+
+        // plat_show
+        if (preg_match('#^/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
+            if ('GET' !== $canonicalMethod) {
+                $allow[] = 'GET';
+                goto not_plat_show;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'plat_show')), array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::showAction',));
+        }
+        not_plat_show:
+
+        // plat_edit
+        if (preg_match('#^/(?P<id>[^/]++)/edit$#s', $pathinfo, $matches)) {
+            if (!in_array($canonicalMethod, array('GET', 'POST'))) {
+                $allow = array_merge($allow, array('GET', 'POST'));
+                goto not_plat_edit;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'plat_edit')), array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::editAction',));
+        }
+        not_plat_edit:
+
+        // plat_delete
+        if (preg_match('#^/(?P<id>[^/]++)/delete$#s', $pathinfo, $matches)) {
+            if ('DELETE' !== $canonicalMethod) {
+                $allow[] = 'DELETE';
+                goto not_plat_delete;
+            }
+
+            return $this->mergeDefaults(array_replace($matches, array('_route' => 'plat_delete')), array (  '_controller' => 'Plat\\PlatBundle\\Controller\\PlatController::deleteAction',));
+        }
+        not_plat_delete:
+
         // homepage
         if ('' === $trimmedPathinfo) {
             if (substr($pathinfo, -1) !== '/') {
