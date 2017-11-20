@@ -1,0 +1,11 @@
+Plat\PlatBundle\Entity\plt_ingr:
+    type: entity
+    table: null
+    repositoryClass: Plat\PlatBundle\Repository\plt_ingrRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    lifecycleCallbacks: {  }

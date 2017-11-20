@@ -5,6 +5,9 @@ namespace Plat\PlatBundle\Entity;
 /**
  * Plat
  */
+///**
+// * @ORM\ManyToMany(targetEntity="Rct_ingr", mappedBy="ingredient")
+// */
 class Plat
 {
     /**

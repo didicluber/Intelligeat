@@ -21,80 +21,74 @@ class __TwigTemplate_7b50d5a194e6b859a15dfaec69b346042d3e470b5c4b32b490dd74bc9d6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_9496d6e9bcfab0b5c335fd364ed23a9dd0c3167404df67b289689d07f6173dc0 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9496d6e9bcfab0b5c335fd364ed23a9dd0c3167404df67b289689d07f6173dc0->enter($__internal_9496d6e9bcfab0b5c335fd364ed23a9dd0c3167404df67b289689d07f6173dc0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "plat/index.html.twig"));
+        $__internal_d39afcbb44df6a9cba93fb1236ece277d0dbb5b9fd391ff5aeb33ae5ff59c105 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d39afcbb44df6a9cba93fb1236ece277d0dbb5b9fd391ff5aeb33ae5ff59c105->enter($__internal_d39afcbb44df6a9cba93fb1236ece277d0dbb5b9fd391ff5aeb33ae5ff59c105_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "plat/index.html.twig"));
 
-        $__internal_84d739bb5f89bddf14effc66e9d3c28fc8e5d42c8dbeed75803ef1550b377b97 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_84d739bb5f89bddf14effc66e9d3c28fc8e5d42c8dbeed75803ef1550b377b97->enter($__internal_84d739bb5f89bddf14effc66e9d3c28fc8e5d42c8dbeed75803ef1550b377b97_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "plat/index.html.twig"));
+        $__internal_e606e3deae85dbba2dbe7f918b722901fbbcbd612f00400c4daf82421763577c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e606e3deae85dbba2dbe7f918b722901fbbcbd612f00400c4daf82421763577c->enter($__internal_e606e3deae85dbba2dbe7f918b722901fbbcbd612f00400c4daf82421763577c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "plat/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_9496d6e9bcfab0b5c335fd364ed23a9dd0c3167404df67b289689d07f6173dc0->leave($__internal_9496d6e9bcfab0b5c335fd364ed23a9dd0c3167404df67b289689d07f6173dc0_prof);
+        $__internal_d39afcbb44df6a9cba93fb1236ece277d0dbb5b9fd391ff5aeb33ae5ff59c105->leave($__internal_d39afcbb44df6a9cba93fb1236ece277d0dbb5b9fd391ff5aeb33ae5ff59c105_prof);
 
         
-        $__internal_84d739bb5f89bddf14effc66e9d3c28fc8e5d42c8dbeed75803ef1550b377b97->leave($__internal_84d739bb5f89bddf14effc66e9d3c28fc8e5d42c8dbeed75803ef1550b377b97_prof);
+        $__internal_e606e3deae85dbba2dbe7f918b722901fbbcbd612f00400c4daf82421763577c->leave($__internal_e606e3deae85dbba2dbe7f918b722901fbbcbd612f00400c4daf82421763577c_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_9e97f12c11095e30693a6bda74211e731e5c60e116505ee7a6f5a695e28baf2b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9e97f12c11095e30693a6bda74211e731e5c60e116505ee7a6f5a695e28baf2b->enter($__internal_9e97f12c11095e30693a6bda74211e731e5c60e116505ee7a6f5a695e28baf2b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_79f49a3517e4d1c82e8ab9b6ef17cdd0e0a3c5046d6b0f81f3fc88746a71f18a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_79f49a3517e4d1c82e8ab9b6ef17cdd0e0a3c5046d6b0f81f3fc88746a71f18a->enter($__internal_79f49a3517e4d1c82e8ab9b6ef17cdd0e0a3c5046d6b0f81f3fc88746a71f18a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_f3464ed4d6eacdfbdfe6e75f354aec470df1074441ebf355088fdbcfccfb1b93 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f3464ed4d6eacdfbdfe6e75f354aec470df1074441ebf355088fdbcfccfb1b93->enter($__internal_f3464ed4d6eacdfbdfe6e75f354aec470df1074441ebf355088fdbcfccfb1b93_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f368d4ea78ebeb7cfe510c72a3c16632072057b32ebaf20ea26b5c461a1f74b1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f368d4ea78ebeb7cfe510c72a3c16632072057b32ebaf20ea26b5c461a1f74b1->enter($__internal_f368d4ea78ebeb7cfe510c72a3c16632072057b32ebaf20ea26b5c461a1f74b1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "    <h1>Plats list</h1>
+        echo "
+     <div class=\"coucou\"></div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Titre</th>
-                <th>Prix</th>
-                <th>Nbpersonne</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
+    <table class=\"table-fill\">
+
         <tbody>
         ";
-        // line 17
+        // line 10
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["plats"] ?? $this->getContext($context, "plats")));
         foreach ($context['_seq'] as $context["_key"] => $context["plat"]) {
-            // line 18
+            // line 11
             echo "            <tr>
                 <td><a href=\"";
-            // line 19
+            // line 12
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("plat_show", array("id" => $this->getAttribute($context["plat"], "id", array()))), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, $this->getAttribute($context["plat"], "id", array()), "html", null, true);
             echo "</a></td>
+    <div class=\"background\"></div>
                 <td>";
-            // line 20
+            // line 14
             echo twig_escape_filter($this->env, $this->getAttribute($context["plat"], "titre", array()), "html", null, true);
             echo "</td>
                 <td>";
-            // line 21
+            // line 15
             echo twig_escape_filter($this->env, $this->getAttribute($context["plat"], "prix", array()), "html", null, true);
             echo "</td>
                 <td>";
-            // line 22
+            // line 16
             echo twig_escape_filter($this->env, $this->getAttribute($context["plat"], "nbpersonne", array()), "html", null, true);
             echo "</td>
                 <td>
                     <ul>
                         <li>
                             <a href=\"";
-            // line 26
+            // line 20
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("plat_show", array("id" => $this->getAttribute($context["plat"], "id", array()))), "html", null, true);
             echo "\">show</a>
                         </li>
                         <li>
                             <a href=\"";
-            // line 29
+            // line 23
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("plat_edit", array("id" => $this->getAttribute($context["plat"], "id", array()))), "html", null, true);
             echo "\">edit</a>
                         </li>
@@ -106,24 +100,24 @@ class __TwigTemplate_7b50d5a194e6b859a15dfaec69b346042d3e470b5c4b32b490dd74bc9d6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['plat'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 35
+        // line 29
         echo "        </tbody>
     </table>
 
     <ul>
         <li>
             <a href=\"";
-        // line 40
+        // line 34
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("plat_new");
         echo "\">Create a new plat</a>
         </li>
     </ul>
 ";
         
-        $__internal_f3464ed4d6eacdfbdfe6e75f354aec470df1074441ebf355088fdbcfccfb1b93->leave($__internal_f3464ed4d6eacdfbdfe6e75f354aec470df1074441ebf355088fdbcfccfb1b93_prof);
+        $__internal_f368d4ea78ebeb7cfe510c72a3c16632072057b32ebaf20ea26b5c461a1f74b1->leave($__internal_f368d4ea78ebeb7cfe510c72a3c16632072057b32ebaf20ea26b5c461a1f74b1_prof);
 
         
-        $__internal_9e97f12c11095e30693a6bda74211e731e5c60e116505ee7a6f5a695e28baf2b->leave($__internal_9e97f12c11095e30693a6bda74211e731e5c60e116505ee7a6f5a695e28baf2b_prof);
+        $__internal_79f49a3517e4d1c82e8ab9b6ef17cdd0e0a3c5046d6b0f81f3fc88746a71f18a->leave($__internal_79f49a3517e4d1c82e8ab9b6ef17cdd0e0a3c5046d6b0f81f3fc88746a71f18a_prof);
 
     }
 
@@ -139,7 +133,7 @@ class __TwigTemplate_7b50d5a194e6b859a15dfaec69b346042d3e470b5c4b32b490dd74bc9d6
 
     public function getDebugInfo()
     {
-        return array (  117 => 40,  110 => 35,  98 => 29,  92 => 26,  85 => 22,  81 => 21,  77 => 20,  71 => 19,  68 => 18,  64 => 17,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  111 => 34,  104 => 29,  92 => 23,  86 => 20,  79 => 16,  75 => 15,  71 => 14,  64 => 12,  61 => 11,  57 => 10,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -155,22 +149,16 @@ class __TwigTemplate_7b50d5a194e6b859a15dfaec69b346042d3e470b5c4b32b490dd74bc9d6
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Plats list</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Titre</th>
-                <th>Prix</th>
-                <th>Nbpersonne</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
+     <div class=\"coucou\"></div>
+
+    <table class=\"table-fill\">
+
         <tbody>
         {% for plat in plats %}
             <tr>
                 <td><a href=\"{{ path('plat_show', { 'id': plat.id }) }}\">{{ plat.id }}</a></td>
+    <div class=\"background\"></div>
                 <td>{{ plat.titre }}</td>
                 <td>{{ plat.prix }}</td>
                 <td>{{ plat.nbpersonne }}</td>

@@ -1,22 +1,17 @@
+
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Plats list</h1>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Titre</th>
-                <th>Prix</th>
-                <th>Nbpersonne</th>
-                <th>Actions</th>
-            </tr>
-        </thead>
+     <div class="coucou"></div>
+
+    <table class="table-fill">
+
         <tbody>
         {% for plat in plats %}
             <tr>
                 <td><a href="{{ path('plat_show', { 'id': plat.id }) }}">{{ plat.id }}</a></td>
+    <div class="background"></div>
                 <td>{{ plat.titre }}</td>
                 <td>{{ plat.prix }}</td>
                 <td>{{ plat.nbpersonne }}</td>
