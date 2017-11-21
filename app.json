@@ -1,0 +1,15 @@
+{
+  "name": "Intelligeat",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
